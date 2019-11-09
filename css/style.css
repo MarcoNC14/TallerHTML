@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    background: #6c5ce7;
+    padding: 10px 0px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+#Lista_Menú{
+    list-style: none;
+}
+#Lista_Menú > li{
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 25px;
+}
+#Lista_Menú >li >a:hover{
+    padding-bottom: 4px;
+    border-bottom: 1px solid #fff;
+}
+#Lista_Menú >li a{
+    text-decoration: none;
+    color: #fff;
+}
